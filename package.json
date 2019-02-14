@@ -1,0 +1,34 @@
+{
+  "name": "remontant-cms",
+  "version": "1.0.0",
+  "description": "Suivie du tuto MEAN stack de codeconcept",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0"
+  },
+  "scripts": {
+    "start":"npm run lint & nodemon app.js",
+    "lint": "./node_modules/.bin/eslint **/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NYAZAK/remontant-cms.git"
+  },
+  "keywords": [
+    "M",
+    "de",
+    "MONGO",
+    "..."
+  ],
+  "author": "ZAKARIA NYA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NYAZAK/remontant-cms/issues"
+  },
+  "homepage": "https://github.com/NYAZAK/remontant-cms#readme"
+}
